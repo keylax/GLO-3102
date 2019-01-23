@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+  }
+  .flex-container{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    margin-top: -64px;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .flex-item{
+    text-align: center;
+  }
+
+ /* Home Related */
+
+  #home-title {
+    color: #4a148c;
+    font-weight: 300;
+  }
+
+  #home-links{
+    padding-top: 0.7em;
+    display: flex;
+    min-width: 65%;
+    justify-content: space-evenly;
+  }
+
+  #home-buttons-footer{
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    min-width: 100%;
+  }
+
+  /* Home Desktop */
+
+  @media only screen and (min-width: 668px) {
+    #home-volume
+    {
+      padding-right: 2em;
+    }
+
+    #home-links{
+      padding-left: 35%;
+    }
+
+    #home-buttons-footer{
+      justify-content: space-between;
+    }
+  }
+
+  /* Home Mobile */
+
+  @media only screen and (max-width: 667px){
+    #home-links{
+      justify-content: space-around;
+    }
+
+    #home-buttons-footer{
+      justify-content: space-around;
+    }
+  }
+
+  /* Video */
+
+  #UBeatVideo {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -960px;
+    margin-top: -540px;
+    z-index: -1;
+  }
+
+  @media only screen and (max-device-width : 667px) {
+    #UBeatVideo{
+      width: 960px;
+      height: 540px;
+      margin-left: -480px;
+      margin-top: -280px;
+    }
+  }

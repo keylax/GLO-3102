@@ -1,0 +1,27 @@
+.track{
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.track-album-name{
+  font-size: 0.8em;
+  padding-left: 1em;
+  color: lightgrey;
+  margin: 0;
+}
+
+.duration{
+  position: absolute;
+  top: 17.5px;
+  right: 10em;
+  font-style: normal;
+  color: cornflowerblue;
+  font-size: 0.8em;
+}
+
+.play {
+  position: absolute;
+  top: 16px;
+  right: 1.2em;
+}

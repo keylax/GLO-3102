@@ -1,0 +1,46 @@
+.track-album-name{
+  font-size: 0.8em;
+  padding-left: 1em;
+  color: lightgrey;
+  margin: 0;
+}
+
+.duration{
+  position: absolute;
+  top: 17.5px;
+  right: 10em;
+  font-style: normal;
+  color: cornflowerblue;
+  font-size: 0.8em;
+}
+
+.play {
+  position: absolute;
+  top: 16px;
+  right: 1.2em;
+}
+
+.custom-remove-button:hover{
+  color: #4a148c;
+}
+
+.playlist-search-input {
+  flex: auto;
+}
+input{
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.14rem 0 0.912rem 0
+}
+
+.playlist-play-icon {
+  font-size: 2.3rem;
+}
+
+.playlist-play-button:hover{
+  color: #4a148c;
+}
+
+.playlist-play-button{
+  padding: 0;
+}

@@ -1,0 +1,58 @@
+#mobile-side-nav li{
+    float: left;
+    width: 100%;
+}
+
+li.mobile-container {
+    display: flex;
+    align-items: center;
+}
+
+li.mobile-info-elems{
+    justify-content: center;
+}
+
+li.mobile-elem{
+    max-height: 70px;
+}
+
+div.mobile-separator{
+    margin-top: 15px;
+    width: 90%;
+}
+div.mobile-user{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #D3D3D3;
+    max-height: 50px;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .side-nav li > a{
+    font-size: 25px;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .side-nav li > a:hover{
+    width: 100%;
+  }
+}
+
+@media only screen
+and (max-device-width : 667px) {
+  .side-nav li > a{
+    font-size: 25px;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .side-nav li > a:hover{
+    width: 100%;
+  }
+}

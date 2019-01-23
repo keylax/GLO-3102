@@ -1,0 +1,30 @@
+#playlist-search-div{
+  position: relative;
+}
+
+.clear-input-button{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.playlist-edit-search-result {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 2;
+}
+
+.playlist-edit-search-result ul li a{
+  display: block;
+  padding: 5px;
+}
+.playlist-edit-search-result ul li a:hover{
+  background-color: #e1cef7;
+  cursor: pointer;
+}
+
+input{
+  padding-left: 10px;
+}

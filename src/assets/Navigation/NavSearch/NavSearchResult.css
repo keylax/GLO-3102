@@ -1,0 +1,42 @@
+.wrap {
+  line-height: 30px;
+  padding: 0 44px 10px 44px;
+}
+
+.title {
+  font-size: 10px;
+  color: #b986f7;
+}
+
+.infos {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.link-container {
+  display: flex; 
+  flex-direction: row;
+}
+
+img {
+  border-radius: 5px;
+  margin-top:10px;
+  margin-right: 10px;
+  max-height: 40px;
+}
+
+@media screen and (max-width:993px) {
+  .title {
+    font-size: 8px;
+  }
+
+  .infos {
+    font-size: 12px;
+    max-height: 50px;
+    text-overflow: ellipsis;
+  }
+
+  .wrap {
+    height: 20%;
+  }
+}

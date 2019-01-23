@@ -1,0 +1,14 @@
+.playlist-edit-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track{
+  position: relative;
+  vertical-align: middle;
+}
+
+.collection{
+  min-height:388px;
+}

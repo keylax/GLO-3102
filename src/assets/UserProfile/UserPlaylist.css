@@ -1,0 +1,19 @@
+.collapsible {
+  margin: 0;
+}
+
+.collapsible-body{
+  padding: 0;
+}
+
+.playlist {
+  position: relative;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.play {
+  position: absolute;
+  top: 5px;
+  right: 1.2em;
+}

@@ -1,0 +1,20 @@
+.pull-left{
+    float: left;
+}
+
+p.connect-username, i.icon-text-link{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+p.connected-user{
+    line-height: 65px;
+}
+
+@media screen and (max-width:1075px){
+    p.icon-text-link{
+      font-size: 12px;
+    }
+}

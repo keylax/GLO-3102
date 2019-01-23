@@ -1,0 +1,69 @@
+.cover-div{
+  height: 300px;
+  width: calc(100% - 50px);
+  background-size: cover;
+  background-image:url('../../media/coverTest.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom:10px;
+  margin-left:25px;
+  margin-right:25px;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-name{
+  font-size:50px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left:10px;
+}
+
+.artist-avatar{
+  word-wrap:break-word;
+  white-space:pre-wrap;
+  width:100px;
+  height:100px;
+  margin-left: 10px;
+}
+
+.artist-name-div{
+  width:100%;
+}
+
+@media screen and (max-width: 991px) {
+  .artist-name{
+    font-size:40px;
+  }
+
+  .cover-div{
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  /* start of tablet styles */
+  .artist-name{
+    font-size:30px;
+  }
+
+  .cover-div{
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  /* start of mobile styles */
+  .cover-div{
+    width:100%;
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  .content-div{
+    margin-left:0px;
+    margin-right:0px;
+  }
+}

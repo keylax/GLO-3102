@@ -1,0 +1,34 @@
+.main-container {
+    flex-direction: column;
+    display: flex;
+    width:100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.page-title {
+    font-family: Georgia
+}
+
+.results-container {
+    margin-right:20%;
+}
+
+.group-results {
+    margin-bottom:20px;
+}
+
+.empty-result-container {
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-top:50px;
+    margin-right:10%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    font-family: Georgia
+}

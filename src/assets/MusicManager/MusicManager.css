@@ -1,0 +1,30 @@
+div.main-container {
+    display: inline-flex; 
+    flex-direction: column;
+    width:100%;
+}
+
+div.queue-container {
+    display: flex; 
+    justify-content: space-between;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom: 5px;
+}
+
+span {
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.manager-container {
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25) inset;
+}
+
+@media screen and (max-width:992px){
+    div.queue-container {
+        display: none;
+    }
+}

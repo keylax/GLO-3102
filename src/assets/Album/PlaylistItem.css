@@ -1,0 +1,9 @@
+.collection-item{
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.collection-item:hover{
+  background-color: #ddd;
+}

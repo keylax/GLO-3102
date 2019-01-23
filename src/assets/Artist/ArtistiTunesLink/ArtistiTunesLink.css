@@ -1,0 +1,14 @@
+.artist-savoirplus-div{
+  margin-left:15px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+
+.iTunes-link{
+  display:inline-block;
+  overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/music-lrg.svg) no-repeat;
+  width:157px;
+  height:45px;
+  background-size:contain;
+}

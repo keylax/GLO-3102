@@ -1,0 +1,30 @@
+
+.tabs.artist-tabs .indicator {
+  background-color: purple;
+}
+
+.tabs .tab.artist-tab a {
+  color: mediumpurple;
+}
+
+.tabs .tab.artist-tab a.active{
+  color: purple;
+}
+
+.tabs .tab.artist-tab a:hover{
+  color: rebeccapurple;
+}
+
+.collapsible-header-div{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.content-div{
+  margin-left:25px;
+  margin-right:25px;
+}
+
+

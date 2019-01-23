@@ -1,0 +1,91 @@
+.collection {
+  border-radius: 0px;
+  width: 100%;
+}
+
+.collection-header.header {
+  display: flex;
+  justify-content: center;
+  background-color: #4a148c;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#follow {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs {
+  margin-top: 2.8em;
+  background-color: transparent;
+}
+
+.tab {
+  width: 49.8%;
+}
+
+a.active {
+  color: white !important;
+  background-color: #4a148c !important;
+}
+
+#container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+@media only screen and (min-width: 721px){
+  #user-info-desktop {
+    margin-top: 6em;
+    margin-right: 2em;
+  }
+
+  #profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #profile-tabs {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  #user-info-desktop {
+    margin-top: 2em;
+  }
+
+  #profile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #profile-tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+#swipe-1 {
+  display: flex;
+  width: 99.9%;
+  justify-content: center;
+}
+
+#swipe-2 {
+  display: flex;
+  width: 99.9%;
+  justify-content: center;
+}

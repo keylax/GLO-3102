@@ -1,0 +1,128 @@
+/*Page Related */
+
+#div-page-container{
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Album Cover and Information Related */
+
+#cover-image{
+  max-width: 300px;
+}
+
+#cover-image-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 721px){
+  #info-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #cover-and-info{
+    padding-left: 2em;
+    padding-top: 0.5em;
+    margin-bottom: auto;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  #info-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #cover-and-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.5em;
+    margin-bottom: auto;
+  }
+}
+
+.release-date
+{
+  font-size: 0.8em;
+  color: grey;
+  padding-left: 2em;
+}
+
+/* iTune link related */
+
+@media screen and (min-width: 720px){
+  #itune-link-desktop{
+    display: flex;
+    justify-content: center;
+  }
+
+  #itune-link-mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px){
+  #itune-link-desktop{
+    display: none;
+  }
+
+  #itune-link-mobile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+}
+
+/* Tracks Related */
+
+@media screen and (min-width: 721px) {
+  #div-tracks-container{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #div-tracks-container{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    max-width: 80%;
+  }
+}
+
+span.title{
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 60%;
+}
+
+span.album-header{
+  max-width: 100%;
+}
+
+.collection-item.header
+{
+  background-color: lightgrey;
+}
+
+.track-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.title-album{
+  font-weight: bold;
+}

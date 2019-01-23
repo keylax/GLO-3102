@@ -1,0 +1,34 @@
+.song-title{
+  display: inline-block;
+  margin:0px;
+}
+
+.song-duration{
+  display:inline-block;
+  float:right;
+  color: cornflowerblue;
+  margin:0px;
+}
+
+.visiter-button{
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 425px) {
+  /* start of smaller mobile styles */
+
+  .collection .collection-item.collection-item-artist {
+    padding: 5px;
+    font-size: 3vw;
+  }
+
+  .song-title{
+    font-size: 3.5vw;
+    display:block;
+  }
+
+  .song-duration{
+    font-size: 3vw;
+    float:none;
+  }
+}

@@ -1,0 +1,41 @@
+.song-duration{
+  display:inline-block;
+  float:right;
+  color: gray;
+  margin:0px;
+}
+
+.album-cover{
+  width: 45px;
+  height: 45px;
+}
+
+.album-year{
+  margin-top:0px;
+  opacity:0.5;
+  font-size: small;
+}
+
+.album-title-div{
+  margin-left:10px;
+  width:100%;
+}
+
+@media screen and (max-width: 635px) {
+  /* start of mobile styles */
+  .collapsible-body-artist{
+    padding:1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* start of smaller mobile styles */
+
+  .collapsible-body-artist {
+    padding: 1rem;
+  }
+
+  .collection.artist-collection{
+    padding-left: 2rem;
+  }
+}
